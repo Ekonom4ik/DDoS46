@@ -8,6 +8,9 @@
 # Name of target to be created (-o option)
 TARGET = DDos46$(EXE_SUFFIX)
 
+SRCS = 
+ddos/TribeFloodNetwork.cc 
+
 # User interface (uncomment one) (-u option)
 USERIF_LIBS = $(ALL_ENV_LIBS) # that is, $(TKENV_LIBS) $(CMDENV_LIBS)
 #USERIF_LIBS = $(CMDENV_LIBS)
